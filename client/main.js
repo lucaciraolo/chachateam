@@ -78,8 +78,8 @@ $(document).ready(function($) {
     parallaxInit();
   });
   function parallaxInit() {
-    $("#video-section").parallax("50%", 0.3);
-    $("#donations").parallax("50%", 0.3);
+    $("#challenge").parallax("50%", 0.3);
+    // $("#donations").parallax("50%", 0.3);
     $("#word-for-humanity").parallax("50%", 0.3);
   }
   parallaxInit();
