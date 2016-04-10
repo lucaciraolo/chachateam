@@ -569,14 +569,13 @@ a.navbar-brand {
 	margin-bottom:35px;
 }
 
-#donations .btn-primary {
-	margin-top:25px;
-	padding:16px 44px;
-}
+/*#donations .btn-primary {*/
+	/*margin-top:25px;*/
+	/*padding:16px 44px;*/
+/*}*/
 
 .overall-process {	
 	padding-top:60px;
-	max-width:550px;
 }
 
 .overall-process img {
@@ -590,7 +589,7 @@ a.navbar-brand {
 .cycle-image img {
 	display: block;
 	margin-bottom: -47px;
-	margin-left: 75px;
+	margin-left: 0px;
 }
 
 .round-progress {
@@ -612,6 +611,7 @@ a.navbar-brand {
 
 .progress-info {
 	margin-top: 15px;
+	margin-bottom: 30px;
 }
 
 .progress-info p {
@@ -635,7 +635,7 @@ a.navbar-brand {
 
 #challenge {
 	background-color:#bfbfbf;
-	background-image:url(../images/home/sea%20swimmer.jpg);
+	background-image:url(../images/sea swimmer.jpg);
 	padding:55px 0;
 	color: white;
 }
@@ -667,6 +667,36 @@ margin-bottom:30px;
 
 #challenge ul {
 	list-style: square;
+}
+
+#charity {
+	color: black;
+}
+
+#charity .header a{
+	color: gray;
+	font-size: 25px;
+	font-weight: bold;
+}
+#charity a{
+	color: gray;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#charity a:hover {
+	color: black;
+}
+#charity h1 {
+	margin-top: 0;
+}
+
+#charity h2 {
+	font-size: 30px;
+}
+
+#charity p {
+	font-size: 18px;
 }
 
 /*==============================
