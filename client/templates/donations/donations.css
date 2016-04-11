@@ -1,0 +1,65 @@
+#donations{
+    /*color: #fff;	*/
+}
+
+#donations .lead {
+    margin-bottom:35px;
+}
+
+/*#donations .btn-primary {*/
+/*margin-top:25px;*/
+/*padding:16px 44px;*/
+/*}*/
+
+.overall-process {
+    padding-top:60px;
+}
+
+.overall-process img {
+    display:inline-block;
+}
+
+.progress-striped .progress-bar, .progress-bar-striped {
+    background-size: 40px 40px;
+}
+
+.cycle-image img {
+    display: block;
+    margin-bottom: -47px;
+    margin-left: 0px;
+}
+
+.round-progress {
+    background-color: transparent;
+    border: 10px solid #fff;
+    border-radius: 25px;
+    display: block;
+    height: 48px;
+    overflow: hidden;
+    margin-top:-4px;
+}
+
+.round-progress .progress {
+    border-radius: 25px;
+    height: 20px;
+    margin: 4px;
+}
+
+
+.progress-info {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.progress-info p {
+    margin-bottom:20px;
+}
+
+.progress-info i {
+    font-size:30px;
+}
+
+.progress-info span {
+    margin:25px;
+
+}

@@ -1,0 +1,65 @@
+<template name="donations" id="donations">
+    <div class="padding-top padding-bottom container">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="donations">
+                    <h1>Donations</h1>
+                    <p class="lead">Donate to help us raise money for Obstetric Fistula</p>
+                    <p>When Theodosia came up with this crazy idea of crossing the English Channel she made herself two goals:</p>
+                    <ol>
+                        <li>Raising awareness for Obstetric Fistula by informing at least 1000 people</li>
+                        <li>Raising money to cure at least 100 girls</li>
+                    </ol>
+                    <div class="embed-responsive embed-responsive-16by9" style="margin-top: 50px;">
+                        <iframe src="https://www.youtube.com/embed/OYdUyJGuSWg" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7">
+                <div class="row col-xs-12">
+                    <div class="text-center overall-process">
+                        <div class="cycle-image">
+                            <img id="swimmer" class="img-responsive" src="images/swimmer.png" alt="" style="width:80px;"/>
+                        </div>
+                        <!--<img class="img-responsive" src="images/water-line.png" alt="" style="width: 503px"/>-->
+                        <div class="round-progress" style="margin-top: 46px">
+                            <div class="progress">
+                                <div id="donationsProgressBar" class="progress-bar progress-bar-striped active six-sec-ease-in-out" role="progressbar"  data-transition="0"></div>
+                            </div>
+                        </div>
+                        <div class="progress-info">
+                            <p>Overall Progress</p>
+                            <span class="lead"><i class="fa fa-thumbs-o-up"></i> Raised $ {{donationsProgress}}</span>
+                            <span class="lead"><i class="fa fa-flag-o"></i> Goal $ 40,000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row col-sm-8 col-sm-offset-2 text-center">
+                    <form id="donationForm">
+                        <h2>Donation Form</h2>
+                        <div class="form-group form-group-lg">
+                            <input name="firstName" placeholder="First Name" type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group form-group-lg">
+                            <input name="lastName" placeholder="Last Name" type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group form-group-lg">
+                            <div class="input-group">
+                                <div class="input-group-addon">$</div>
+                                <input id="donationAmount" name="amount" type="number" class="form-control" placeholder="Amount" required>
+                                <div class="input-group-addon">.00</div>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input name="display" type="checkbox" checked> I would like my name to appear on the list of donors. (Does not show amount).
+                            </label>
+                        </div>
+                        <button id="donateButton" type="submit" class="btn btn-primary btn-block">Donate</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
