@@ -80,7 +80,7 @@ $(document).ready(function($) {
   function parallaxInit() {
     $("#challenge").parallax("50%", 0.3);
     // $("#donations").parallax("50%", 0.3);
-    $("#word-for-humanity").parallax("50%", 0.3);
+    // $("#word-for-humanity").parallax("50%", 0.3);
   }
   parallaxInit();
 
