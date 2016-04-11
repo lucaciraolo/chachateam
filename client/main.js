@@ -8,6 +8,36 @@ var $ = jQuery.noConflict();
 $(document).ready(function($) {
   "use strict";
 
+  var checkout =
+      StripeCheckout.configure({
+        key: Meteor.settings.public.stripe,
+        locale: 'auto',
+        token( token ) {
+          let charge  = {
+            amount: token.amount || parseInt($('#donationAmount').val() * 100),
+            currency: token.currency || 'usd',
+            source: token.id,
+            receipt_email: token.email
+          };
+
+          Meteor.call( 'processPayment', charge, ( error, response ) => {
+            if ( error ) {
+              alert(error.reason);
+            } else {
+              alert('Worked!');
+            }
+          });
+        }
+      });
+
+  $('#donateButton').click(function() {
+    checkout.open({
+      name: 'ChaCha Team Donation',
+      description: 'Donating to help us raise money for Obstetric Fistula',
+      amount: $('#donationAmount').val() * 100
+    });
+  });
+
   //Preloader
   $(window).load(function(){
     $('.preloader').fadeOut('slow',function(){$(this).remove();});

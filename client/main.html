@@ -54,7 +54,7 @@
 				<div class="item active" style="background-image: url(images/English-Channel.jpg)">
 					<div class="carousel-caption container">
 						<h1 class="animated rollIn">ChaCha Team</h1>
-						<p class="animated rollIn" style="font-size: 20px">We are a team of 6 girls from Le Rosey & International School of Geneva in Switzerland swimming across the English Channel to raise money for Obstetric Fistula.</p>
+						<p class="animated rollIn" style="font-size: 20px">We are a team of 8 girls from International Schools in Geneva, Switzerland. 6 of us will be swimming across the English Channel to raise money and awareness for Obstetric Fistula.</p>
 						<a href="#donations" id="tohash" class="animated rollIn btn btn-primary">Learn More</a>
 					</div>					
 				</div>
@@ -69,11 +69,11 @@
 					<div class="donations">
 						<h1>Donations</h1>
 						<p class="lead">Donate to help us raise money for Obstetric Fistula</p>
-                        <div style="color:red">
-                            <p>Need content here, perhaps move the video from the 'The Charity' section?</p>
-                            <p>Need to fix the donate button and add more flare to it. Maybe an icon?</p>
-                            <p>Do we want to have a public list of donations with the option to donate anonymously?</p>
-                        </div>
+                        <p>When Theodosia came up with this crazy idea of crossing the English Channel she made herself two goals:</p>
+                        <ol>
+                            <li>Raising awareness for Obstetric Fistula by informing at least 1000 people</li>
+                            <li>Raising money to cure at least 100 girls</li>
+                        </ol>
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe src="https://www.youtube.com/embed/OYdUyJGuSWg" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -93,23 +93,23 @@
                             </div>
                             <div class="progress-info">
                                 <p>Overall Progress</p>
-                                <span class="lead"><i class="fa fa-thumbs-o-up"></i> Raised $ 9800</span>
-                                <span class="lead"><i class="fa fa-flag-o"></i> Goal $ 98,000</span>
+                                <span class="lead"><i class="fa fa-thumbs-o-up"></i> Raised $ 0</span>
+                                <span class="lead"><i class="fa fa-flag-o"></i> Goal $ 40,000</span>
                             </div>
                         </div>
 					</div>
                     <div class="row col-sm-6 col-sm-offset-3 text-center">
-                        <form class="form">
+
                             <div class="form-group form-group-lg">
                                 <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
                                 <div class="input-group">
                                     <div class="input-group-addon">$</div>
-                                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+                                    <input id="donationAmount" type="text" class="form-control" placeholder="Amount">
                                     <div class="input-group-addon">.00</div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-block">Donate</button>
-                        </form>
+                            <button id="donateButton" class="btn btn-primary btn-block">Donate</button>
+
                     </div>
 				</div>
 			</div>
@@ -119,15 +119,18 @@
 	<div id="challenge" class="parallax-section">
 		<div class="container">
 			<div class="row">
-                <div class="row" style="background-color: rgba(0, 0, 0, 0.3); border-top-left-radius: 25px; border-top-right-radius: 25px; padding:20px;">
+                <div class="row" style="background-color: rgba(0, 0, 0, 0.3); border-top-left-radius: 25px; border-top-right-radius: 25px; padding:20px 20px 0px 20px;">
                     <div class="col-xs-12">
                         <h1>The Challenge</h1>
-                        <p style="color: red">May have to abandon the background photo as it makes text difficult to read and looks kind of dark. I've tried blurring it as well but didn't help too much.</p>
                         <hr/>
-                        <p class="lead">The Chacha (Channel Challenge) Team is a group of 6 students who are going to relay swim across the English Channel in August 2016. We will begin our crossing in Dover and finish in Calais. This covers a distance of approximately 35km in a straight line (~50km taking into account currents). Our aim is to raise money for Obstetric Fistula.</p>
+                        <p class="lead">The ChaCha (Channel Challenge) Team is a group of 8 students, 6 of whom are going to relay swim across the English Channel in August 2016. We will begin our crossing in Dover and finish in Calais. This covers a distance of approximately 35km in a straight line (~50km taking into account currents). Our aim is to raise money for Obstetric Fistula.</p>
+                        <p class="lead" style="font-size: 25px; margin-bottom: 40px;">
+                            Total distance covered by the team while training: <strong>2400 km</strong><br/>
+                            Total hours swam by the team since December: <strong>350 hours</strong>
+                        </p>
                     </div>
                 </div>
-                <div class="row" style="background-color: rgba(0, 0, 0, 0.3); border-bottom-left-radius: 25px; border-bottom-right-radius: 25px; padding:20px;">
+                <div class="row" style="background-color: rgba(0, 0, 0, 0.3); border-bottom-left-radius: 25px; border-bottom-right-radius: 25px; padding:0px 20px 20px 20px;">
 
                     <div class="col-sm-4">
                         <h2>Channel Swimming Association Rules</h2>
@@ -138,6 +141,7 @@
                             <li>Cannot wear a wetsuit.</li>
                             <li>Must pass a 2 hour qualifier in water below 15.5 degrees.</li>
                             <li>Can only spend 10 minutes on French land upon arrival due to border control regulations.</li>
+                            <li>If one swimmer fails, the whole team is disqualified.</li>
                         </ul>
                     </div>
                     <div class="col-sm-4">
@@ -158,7 +162,7 @@
                             <li>Outdoor training in lake geneva to get used to the cold</li>
                             <li>Indoor training, at the moment 15km per week but this amount will gradually increase as we get closer to the</li> date of the crossing
                             <li>Night swims in the lake as some of us will have to swim at night in the Channel</li>
-                            <li>Our coaches are Kevin Murphy, the ‘King of the Channel’, who has crossed the Channel 34 times, which is more</li> than any other man in history, and Kathy Batts, who has relay swam the Channel 14 times
+                            <li>Our coaches are Kevin Murphy who has crossed the Channel 34 times, which is more than any other man in history, and Kathy Batts, who has relay swam the Channel 14 times.</li>
 
 
                         </ul>
@@ -174,8 +178,13 @@
                 <div class="col-sm-6">
                     <div class="row header">
                         <div class="col-sm-12">
-                            <h1>The Charity - Hamlin Fistula Ethiopia</h1>
-                            <a href="http://hamlinfistula.org/about-us">http://hamlinfistula.org</a>
+                            <h1>
+                                The Charity: <br/>
+                                <a href="http://hamlinfistula.org/about-us">Hamlin Fistula Ethiopia</a><br/>
+                                <a href="http://l.facebook.com/l.php?u=http%3A%2F%2Fwww.ghananewsagency.org%2Fhealth%2Fmercy-women-s-hospital-to-become-fistula-centre-of-excellence-75348&h=1AQHWF-2M">Mercy Women’s Hospital Ghana</a><br/>
+                                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.fistulafoundation.org%2Fcountries-we-help%2Fzambia%2F&h=1AQHWF-2M">Fistula Hospital Zambia</a>
+                            </h1>
+
                             <hr style="border-top: 1px solid black; margin-bottom: 50px;"/>
                         </div>
                     </div>
@@ -183,9 +192,9 @@
                         <div class="col-xs-12">
                             <p>Obstetric Fistula is a condition, which affects 2 million women in the world. These women can be saved with a small operation of $600. We encourage you to donate, as any small amount will make a massive difference!</p>
 
-                            <p>The costs for the surgery, three weeks of care in a hospital and rehabilitation are only US$600. Only $600 to give a woman her life back.</p>
+                            <p>The costs for the surgery, three weeks of care in a hospital and rehabilitation are up to US$600. Only $600 to give a woman her life back.</p>
 
-                            <p>80% of the money raised will go to the Hamlin Fistula Hospital in Ethiopia, the largest hospital in the world that solely treats this condition, the remaining 20% will go to the Mercy Women’s Hospital in Ghana, where many women, who suffer from obstetric fistula, are waiting for the funds for their surgery.</p>
+                            <p>60% of the money raised will go to the Hamlin Fistula Hospital in Ethiopia, the largest hospital in the world that solely treats this condition, 20% will go to the Mercy Women’s Hospital in Ghana, where many women, who suffer from Obstetric Fistula, are waiting for the funds for their surgery. The remaining 20% will go to the Fistula Hospital in Zambia.</p>
 
                             <p>The eradication of Obstetric Fistula has now also become one of the UN’s goals.</p>
                         </div>
