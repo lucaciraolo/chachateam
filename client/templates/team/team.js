@@ -11,8 +11,8 @@ var members = [
         text: "My name is Ludmilla le Marié, I was born in France and I am 17 years old. I first started swimming when I was only just a baby, and I always loved the sea more than I liked pools. Therefore, when my friend Theodosia Catsiapis came to me with the insane idea of crossing the English Channel, I immediately said YES, with no second thought. I don't think that at the time I realised how big of a challenge I was getting myself into, but as the time passes I am more and more confident about us crossing it. I believe that we have now found and strong and determined team of girls that will reach France no matter what the circumstances."
     },
     {
-        image: "ottiva.jpg",
-        name: "Ottiva",
+        image: "ottavia.jpg",
+        name: "Ottavia",
         text: "If one word could describe me it would be adventurous. Whether it is hiking for 8 days, canoeing down a river, traveling to a foreign country or swimming the channel, I throw myself head and shoulders into every adventure no matter how big or small. For the last few years I have been looking for the ultimate challenge that tested me both mentally and physically whilst at the same time reaching out to the global community. As a dedicated competitive swimmer for the last 8 years, who trains 5-6 times a week, by finding something that uses the skills I have built up, allows me to help other whilst pursuing a passion. When swimming the channel as a relay to raise money of obstetric fistula came up, the seed was planted towards this ultimate challenge. And so the adventure begins..."
     },
     {
