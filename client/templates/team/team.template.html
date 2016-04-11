@@ -1,5 +1,5 @@
 <template name="team">
-    <div id="team" class="padding-top padding-bottom" style="background-color: white">
+    <div id="team" class="parallax-section">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -8,12 +8,17 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12">
-                    <p style="color:red">Image of each team member with short paragraph about them</p>
-                    <h2>Example</h2>
-                    <p>Ottavia:If one word could describe me it would be adventurous. Whether it is hiking for 8 days, canoeing down a river, traveling to a foreign country or swimming the channel, I throw myself head and shoulders into every adventure no matter how big or small. For the last few years I have been looking for the ultimate challenge that tested me both mentally and physically whilst at the same time reaching out to the global community. As a dedicated competitive swimmer for the last 8 years, who trains 5-6 times a week, by finding something that uses the skills I have built up, allows me to help other whilst pursuing a passion. When swimming the channel as a relay to raise money of obstetric fistula came up, the seed was planted towards this ultimate challenge. And so the adventure begins...
-                    </p>
+                {{#each member in members}}
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="images/team/{{member.image}}">
+                        <div class="caption">
+                            <h3>{{member.name}}</h3>
+                            <p>{{member.text}}</p>
+                        </div>
+                    </div>
                 </div>
+                {{/each}}
             </div>
         </div>
     </div>

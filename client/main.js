@@ -79,6 +79,7 @@ $(document).ready(function($) {
   });
   function parallaxInit() {
     $("#challenge").parallax("50%", 0.3);
+    // $("#team").parallax("10%", 1);
     // $("#donations").parallax("50%", 0.3);
     // $("#word-for-humanity").parallax("50%", 0.3);
   }
