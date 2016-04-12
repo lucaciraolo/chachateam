@@ -86,9 +86,9 @@ $(document).ready(function($) {
   parallaxInit();
 
   // Progress Bar
-  $.each($('div.progress-bar'),function(){
-    $(this).css('width', $(this).attr('data-transition')+'%');
-  });
+  // $.each($('div.progress-bar'),function(){
+  //   $(this).css('width', $(this).attr('data-transition')+'%');
+  // });
 
   //Pretty Photo
   $("a[data-gallery^='prettyPhoto']").prettyPhoto({
