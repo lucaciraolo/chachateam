@@ -24,6 +24,11 @@ var members = [
         image: "josephine.jpg",
         name: "Josephine Brenoe",
         text: "My name is Josephine Brenoe. I am from Denmark and The Netherlands however August 2015 marks the beginning of my time living in Europe. Before living here, I was living in India for 4 years and earlier than that I was living in the Philippines. I have always loved to participate in sports and I love being a member of a team. The sports that I focus on primarily are football and swimming. Since I moved to Switzerland I have taken my sports activity to a whole new level. I have always been constantly motivated to push myself and improve in the sports that I love. This is especially true for swimming. Swimming is a sport that pushes me beyond my abilities both mentally and physically. Therefore, when I was told about this Swiss Channel Challenge I was ready to dig my teeth into this incredible new activity. There was and has been no shortage of nervousness, pride, excitement and teamwork during the preparation for this challenge. From here, I can only hope that I continue experiencing this whole process to the fullest. I know that I must work my hardest to insure that I succeed. For that, I am 110% ready to dive right in."
+    },
+    {
+        image: "margaret.jpg",
+        name: "Margaret Koudriaev",
+        text: "My name is Margaret Koudriaev and I'm a swimmer. I used to live in London and competed for several years but when I moved to Geneva I wanted to row and run track for my school team rather than compete in swimming. Nevertheless I still loved to swim in my own and missed it for a while. Then one day, my sports science teacher spoke to me after class and informed that there is a group of girls that are going to do something crazy, a great group of swimmers who wanted to cross the channel. I accepted before my teacher managed to finish his sentence! I saw this as an opportunity to do something incredible that not everyone can say they have done and help eradicate something that should no longer exist in today's society."
     }
 ];
 
