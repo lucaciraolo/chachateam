@@ -6,6 +6,14 @@
     margin-bottom:35px;
 }
 
+#donations a {
+    color: #2e6da4;
+}
+
+#donations a:hover {
+    color: #5bc0de;
+}
+
 /*#donations .btn-primary {*/
 /*margin-top:25px;*/
 /*padding:16px 44px;*/
