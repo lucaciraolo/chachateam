@@ -56,7 +56,7 @@ Template.donations.helpers({
         return (total/100).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     },
     donors() {
-        return Donations.find({display: true});
+        return Donations.find({display: true}, {sort: {lastName: 1}});
     }
 });
 
