@@ -41,7 +41,6 @@ Template.donations.helpers({
         var total = 0;
         var donations = Donations.find({});
         donations.forEach(function(donation) {
-            console.log('donation found');
             total += donation.amount;
         });
         var value = Math.round(total / 40000);
@@ -52,7 +51,6 @@ Template.donations.helpers({
             $('#swimmer').css('margin-left', swimmerMargin + 'px');
             $('#donationsProgressBar').css('width', value + '%');
         });
-        console.log(value);
         return (total/100).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     },
     donors() {
