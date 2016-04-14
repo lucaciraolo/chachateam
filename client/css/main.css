@@ -125,13 +125,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight:300;
 }
 
-.section-title:after {
-	position:absolute;
-	content:"";
-	height:1px;
-	width:265px;
-}
-
 .navbar-toggle {
 	border:1px solid #fff;
 	margin-top:10px;
@@ -559,55 +552,6 @@ a.navbar-brand {
 	background-color:#fff;
 }
 
-/*Donations*/
-
-
-
-
-
-/*=============================
-=========video-section=========
-===============================*/
-
-#challenge {
-	background-color:#bfbfbf;
-	background-image:url(../images/sea swimmer.jpg);
-	padding:55px 0;
-	color: white;
-}
-
-#challenge h1 {
-	font-size: 48px;
-	/*margin-bottom: 50px;*/
-	color: black;
-	font-weight: bold;
-
-	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
-}
-
-#challenge h2 {
-	margin-top: 0px;
-}
-
-#challenge .lead {
-/*font-weight:600;*/
-margin-bottom:40px;
-}
-
-#challenge .btn-primary {
-padding:14px 26px;
-margin-bottom:30px;
-}
-
-
-#challenge p, ul, h2 {
-/*max-width:445px;*/
-/**/
-}
-
-#challenge ul {
-	list-style: square;
-}
 
 #charity {
 	color: black;

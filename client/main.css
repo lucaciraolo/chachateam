@@ -1,1 +1,5 @@
-/* CSS declarations go here */
+.section-header {
+    font-size: 48px;
+    color: black;
+    font-weight: bold;
+}
