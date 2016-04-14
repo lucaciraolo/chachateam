@@ -27,8 +27,9 @@ var checkout =
                 if ( error ) {
                     alert(error.reason);
                 } else {
-                    $('#donationForm').trigger('reset');
-                    $('#donationForm').after('<div class="alert alert-success" style="margin-top: 10px;">Thank you! Your donation has been successfully received.</div>');
+                    $('#donationForm')
+                        .trigger('reset')
+                        .after('<div class="alert alert-success" style="margin-top: 10px;">Thank you! Your donation has been successfully received.</div>');
                 }
             });
         }
@@ -53,6 +54,9 @@ Template.donations.helpers({
         });
         console.log(value);
         return (total/100).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    },
+    donors() {
+        return Donations.find({display: true});
     }
 });
 
