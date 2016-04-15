@@ -13,7 +13,8 @@
                 </div>
                 <div class="row">
                     <h2>Our special thanks to:</h2>
-                    <p>A huge thank you to all the people who have donated so far!</p>
+                    <p>A huge thank you to our donors!</p>
+                    <p>The Fondation Theodora, Sandra Huri and Marie Joe</p>
                     <p>Our coaches Kevin Murphy and Kathy Batts, Antoine Laffay and Sophie Pickford.</p>
                     <p>Our parents; without them, all this would not have been possible...</p>
                     <p>Our web designer Luca Ciraolo - <a href="mailto:lucaciraolo@gmail.com">lucaciraolo@gmail.com</a> </p>
@@ -21,17 +22,10 @@
                 <div class="row">
                     <h2>Donors</h2>
                     <table class="table table-responsive table-hover table-condensed">
-                        <thead>
-                            <tr>
-                                <th>First name</th>
-                                <th>Last name</th>
-                            </tr>
-                        </thead>
                         <tbody>
                             {{#each donor in donors}}
                             <tr>
-                                <td>{{donor.firstName}}</td>
-                                <td>{{donor.lastName}}</td>
+                                <td>{{donor.firstName}} {{donor.lastName}}</td>
                             </tr>
                             {{/each}}
                         </tbody>
@@ -53,7 +47,7 @@
                         <div class="progress-info">
                             <p>Overall Progress</p>
                             <span class="lead"><i class="fa fa-thumbs-o-up"></i> Raised $ {{donationsProgress}}</span>
-                            <span class="lead"><i class="fa fa-flag-o"></i> Goal $ 40,000</span>
+                            <span class="lead"><i class="fa fa-flag-o"></i> Goal $ 60,000</span>
                         </div>
                     </div>
                 </div>

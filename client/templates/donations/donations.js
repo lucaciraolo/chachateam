@@ -43,7 +43,7 @@ Template.donations.helpers({
         donations.forEach(function(donation) {
             total += donation.amount;
         });
-        var value = Math.round(total / 40000);
+        var value = Math.round(total / 60000);
 
         var swimmerMargin = value / 100 * 594 - 60;
         if (swimmerMargin < 0) swimmerMargin = 0;
@@ -54,7 +54,7 @@ Template.donations.helpers({
         return (total/100).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     },
     donors() {
-        return Donations.find({display: true}, {sort: {lastName: 1}});
+        return Donations.find({display: true});
     }
 });
 
