@@ -7,3 +7,7 @@
 #team .section-header {
     color: white;
 }
+
+#team p.lead {
+    font-size: 25px;
+}
