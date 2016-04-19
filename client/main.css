@@ -3,3 +3,12 @@
     color: black;
     font-weight: bold;
 }
+
+
+a {
+    color: #2e6da4;
+}
+
+a:hover {
+    color: #5bc0de;
+}

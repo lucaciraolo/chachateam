@@ -1,0 +1,20 @@
+<template name="thanks">
+    <div id="thanks" class="padding-top padding-bottom container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1 class="section-header">Our special thanks to:</h1>
+                <p class="lead">Our donors</p>
+                <p class="lead">The Fondation du Rosey, Sandra Huri and Marie Joe</p>
+                <p class="lead">Our coaches Kevin Murphy and Kathy Batts, Antoine Laffay and Sophie Pickford.</p>
+                <p class="lead">Our parents; without them, all this would not have been possible...</p>
+                <p class="lead">Our web designer Luca Ciraolo - <a href="mailto:lucaciraolo@gmail.com">lucaciraolo@gmail.com</a> </p>
+            </div>
+            <div class="col-sm-6">
+                <h2>Donors</h2>
+                {{#each donor in donors}}
+                    <p class="donor">{{donor.firstName}} {{donor.lastName}}</p>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</template>
