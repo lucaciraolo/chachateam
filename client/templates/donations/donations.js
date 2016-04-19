@@ -43,7 +43,7 @@ Template.donations.helpers({
         donations.forEach(function(donation) {
             total += donation.amount;
         });
-        var value = Math.round(total / 60000);
+        var value = Math.round(total / 70000);
 
         var swimmerMargin = value / 100 * 594 - 60;
         if (swimmerMargin < 0) swimmerMargin = 0;
