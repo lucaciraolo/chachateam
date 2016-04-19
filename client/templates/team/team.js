@@ -3,7 +3,7 @@ var members = [
     {
         image: "theodosia.jpg",
         name: "Theodosia Catsiapis",
-        text: "My name is Theodosia Catsiapis and I am 16 years old. Last year I read an article about a man named Phillipe Croizon who lost both his arms and his legs and still managed to swim across the English Channel. His inspiring story made me think, well if he can do it, so can I. A Channel relay swim is challenge that tests endurance, determination and essentially team work. I know that this will probably the hardest thing I have ever done, but I am motivated and ready to commit especially since I am doing it for a cause that is so close to my heart. I have been strongly engaged in raising money for Obstetric Fistula since April 2015, after having visited Ethiopia. I started a charity \"T.E.Y.Y.A - To Empower Youth with Youth Action\". When I realised that this challenge could raise money for these poor, suffering girls I looked further into it, gathered a team, started training and now here we are- the first under 18 Swiss Channel relay team in history!"
+        text: "My name is Theodosia Catsiapis and I am 16 years old. Last year I read an article about a man named Phillipe Croizon who lost both his arms and his legs and still managed to swim across the English Channel. His inspiring story made me think, well if he can do it, so can I. A Channel relay swim is a challenge that tests endurance, determination and essentially team work. I know that this will probably be the hardest thing I have ever done, but I am motivated and ready to commit especially since I am doing it for a cause that is so close to my heart. I have been strongly engaged in raising money for Obstetric Fistula since April 2015, after having visited Ethiopia. I started a charity \"T.E.Y.Y.A - To Empower Youth with Youth Action\". When I realised that this challenge could raise money for these poor, suffering girls I looked further into it, gathered a team, started training and now here we are- the first under 18 Swiss Channel relay team in history!"
     },
 
     {
@@ -27,7 +27,7 @@ var members = [
     {
         image: "mira.jpg",
         name: "Mira Browne",
-        text: "My name is Mira. I'm 16 years old and I attend the international school of geneva. I am Canadian and was born there but I moved to Switzerland 8 years ago. I have been swimming competitively for 4-5 years and I am really excited for the channel challenge this august!"
+        text: "My name is Mira. I'm 16 years old and I attend the International School of Geneva. I am Canadian and was born there but I moved to Switzerland 8 years ago. I have been swimming competitively for 4-5 years and I am really excited for the channel challenge this August!"
     },
 
     {
