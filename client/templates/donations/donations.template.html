@@ -11,37 +11,17 @@
                         <li>Raising money to cure at least 100 girls</li>
                     </ol>
                 </div>
-                <div class="row">
-                    <h2>Our special thanks to:</h2>
-                    <p>A huge thank you to our donors!</p>
-                    <p>The Fondation Theodora, Sandra Huri and Marie Joe</p>
-                    <p>Our coaches Kevin Murphy and Kathy Batts, Antoine Laffay and Sophie Pickford.</p>
-                    <p>Our parents; without them, all this would not have been possible...</p>
-                    <p>Our web designer Luca Ciraolo - <a href="mailto:lucaciraolo@gmail.com">lucaciraolo@gmail.com</a> </p>
-                </div>
-                <div class="row">
-                    <h2>Donors</h2>
-                    <table class="table table-responsive table-hover table-condensed">
-                        <tbody>
-                            {{#each donor in donors}}
-                            <tr>
-                                <td>{{donor.firstName}} {{donor.lastName}}</td>
-                            </tr>
-                            {{/each}}
-                        </tbody>
-                    </table>
-                </div>
             </div>
             <div class="col-sm-7">
                 <div class="row col-xs-12">
                     <div class="text-center overall-process">
                         <div class="cycle-image">
-                            <img id="swimmer" class="img-responsive" src="images/swimmer.png" alt="" style="width:80px;"/>
+                            <img id="swimmer" class="img-responsive" src="images/swimmer.png" alt="" style="width: 80px; margin-left: 183.54px;">
                         </div>
                         <!--<img class="img-responsive" src="images/water-line.png" alt="" style="width: 503px"/>-->
                         <div class="round-progress" style="margin-top: 46px">
                             <div class="progress">
-                                <div id="donationsProgressBar" class="progress-bar progress-bar-striped active six-sec-ease-in-out" role="progressbar"  data-transition="0"></div>
+                                <div id="donationsProgressBar" class="progress-bar progress-bar-striped active six-sec-ease-in-out" role="progressbar" data-transition="0" style="width: 41%;"></div>
                             </div>
                         </div>
                         <div class="progress-info">
@@ -51,38 +31,39 @@
                         </div>
                     </div>
                 </div>
-                <div class="row col-sm-8 col-sm-offset-2 text-center">
-                    <form id="donationForm">
-                        <h2>Donation Form</h2>
-                        <div class="form-group form-group-lg">
-                            <input name="firstName" placeholder="First Name" type="text" class="form-control" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+                <form id="donationForm">
+                    <h2>Donation Form</h2>
+                    <div class="form-group form-group-lg">
+                        <input name="firstName" placeholder="First Name" type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group form-group-lg">
+                        <input name="lastName" placeholder="Last Name" type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group form-group-lg">
+                        <div class="input-group">
+                            <div class="input-group-addon">$</div>
+                            <input id="donationAmount" name="amount" type="number" class="form-control" placeholder="Amount" required="">
+                            <div class="input-group-addon">.00</div>
                         </div>
-                        <div class="form-group form-group-lg">
-                            <input name="lastName" placeholder="Last Name" type="text" class="form-control" required>
-                        </div>
-                        <div class="form-group form-group-lg">
-                            <div class="input-group">
-                                <div class="input-group-addon">$</div>
-                                <input id="donationAmount" name="amount" type="number" class="form-control" placeholder="Amount" required>
-                                <div class="input-group-addon">.00</div>
-                            </div>
-                        </div>
-                        <div class="checkbox">
-                            <label>
-                                <input name="display" type="checkbox" checked> I would like my name to appear on the list of donors. (Does not show amount).
-                            </label>
-                        </div>
-                        <img class="img-responsive" src="images/donations/donate.jpg">
-                        <button id="donateButton" type="submit" class="btn btn-primary btn-block">Donate</button>
-                        <p>Secure payment with Stripe. <a href="https://stripe.com/docs/security">https://stripe.com/docs/security</a> </p>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input name="display" type="checkbox" checked=""> I would like my name to appear on the list of donors. (Does not show amount).
+                        </label>
+                    </div>
+                    <img class="img-responsive center-block" src="images/donations/donate.jpg">
+                    <button id="donateButton" type="submit" class="btn btn-primary btn-lg">Donate</button>
+                    <p>Secure payment with Stripe. <a href="https://stripe.com/docs/security">https://stripe.com/docs/security</a> </p>
 
-                        <ul>
-                            <li>We are actively looking for sponsors for the crossing, if we don't, a small part of your donation will help us with its cost.</li>
-                            <li>Your donation will go to T.E.Y.Y.A "To Empower Youth with Youth Action" under the umbrella of <a href="http://roseyfoundation.org">The Rosey Foundation</a>.</li>
-                        </ul>
-                    </form>
-
-                </div>
+                    <ul>
+                        <li>We are actively looking for sponsors for the crossing, if we don't, a small part of your donation will help us with its cost.</li>
+                        <li>Your donation will go to T.E.Y.Y.A "To Empower Youth with Youth Action" under the umbrella of <a href="http://roseyfoundation.org">The Rosey Foundation</a>.</li>
+                    </ul>
+                </form>
             </div>
         </div>
     </div>

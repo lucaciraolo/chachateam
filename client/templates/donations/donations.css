@@ -66,3 +66,8 @@
     margin:25px;
 
 }
+
+#donations ul {
+    list-style: square;
+    margin: 20px;
+}
