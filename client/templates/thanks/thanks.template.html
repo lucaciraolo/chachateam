@@ -10,11 +10,13 @@
                 <p class="lead">Our web designer Luca Ciraolo - <a href="mailto:lucaciraolo@gmail.com">lucaciraolo@gmail.com</a> </p>
                 <p class="lead">Our photographer Raffi Maghdessian - <a href="http://www.fotograffi.ch">www.fotograffi.ch</a></p>
             </div>
-            <div id="donors" class="col-sm-6">
+            <div class="col-sm-6">
                 <h2>Donors</h2>
-                {{#each donor in donors}}
-                    <p class="donor">{{donor.firstName}} {{donor.lastName}}</p>
-                {{/each}}
+                <div id="donors">
+                    {{#each donor in donors}}
+                        <p class="donor">{{donor.firstName}} {{donor.lastName}}</p>
+                    {{/each}}
+                </div>
             </div>
         </div>
     </div>
