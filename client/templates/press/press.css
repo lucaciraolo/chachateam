@@ -1,3 +1,19 @@
 #press h2 {
     margin-top: 50px;
+    font-weight: bold;
+}
+
+#press .col-sm-6 {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 30px;
+}
+
+#articles h2, #articles h3 {
+    margin-bottom: 50px;
+}
+
+#press img {
+    /*margin-top: 10px;*/
+    margin-bottom: 10px;
 }
