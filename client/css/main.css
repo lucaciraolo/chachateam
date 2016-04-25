@@ -421,12 +421,22 @@ a.navbar-brand {
 }
 
 .carousel-caption  h1 {
-	font-size:75px;
-	font-weight:800;
-	line-height:90px;
-	text-transform:capitalize;
+	 font-size:75px;
+	 font-weight:800;
+	 line-height:90px;
+	 text-transform:capitalize;
+	 max-width:600px;
+	 margin-bottom:0px;
+ }
+
+.carousel-caption  h2 {
+	font-size:27px;
+	font-weight:600;
+	/*line-height:90px;*/
+	/*text-transform:capitalize;*/
 	max-width:600px;
-	margin-bottom:20px;
+	margin-top:0px;
+	margin-bottom:10px;
 }
 
 .carousel-caption p {
