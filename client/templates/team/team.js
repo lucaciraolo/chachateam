@@ -20,7 +20,7 @@ var members = [
 
     {
         image: "ottavia.jpg",
-        name: "Ottavia",
+        name: "Ottavia Austin",
         text: "If one word could describe me it would be adventurous. Whether it is hiking for 8 days, canoeing down a river, traveling to a foreign country or swimming the channel, I throw myself head and shoulders into every adventure no matter how big or small. For the last few years I have been looking for the ultimate challenge that tested me both mentally and physically whilst at the same time reaching out to the global community. As a dedicated competitive swimmer for the last 8 years, who trains 5-6 times a week, by finding something that uses the skills I have built up, allows me to help other whilst pursuing a passion. When swimming the channel as a relay to raise money of obstetric fistula came up, the seed was planted towards this ultimate challenge. And so the adventure begins..."
     },
 
@@ -43,7 +43,7 @@ var members = [
     },
 
     {
-        image: "anouk.png",
+        image: "anouk.jpg",
         name: "Anouk Emmert",
         text: "My name is Anouk Emmert and I am 16 years old. I am from Switzerland and have always lived here. I have been a swimmer since I was 8 and it will do 5 years that I do competition and swimming will forever be one of my passions along with listening to music. Doing competitions for so long has taught me to work hard and not to give up because in the end it will always pay back. I will use these lessons taught during this challenge. I am fully conscious that competitions and crossing the Channel are two completely different environments and conditions but that's what makes it such a beautiful challenge to me, because it will make me get out of my comfort zone (which I love) and make me push my limits, but also to raise money for a wonderful cause and to make relatives and close friends aware of Obstetric Fistula. I believe this team is truly capable achieving all our goals. I am 100% motivated for this new challenge and cold water will not change that."
     }
