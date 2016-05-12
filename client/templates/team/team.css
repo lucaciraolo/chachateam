@@ -11,3 +11,8 @@
 #team p.lead {
     font-size: 25px;
 }
+
+#team div.thumbnail img {
+    height: 350px;
+    object-fit: cover;
+}
