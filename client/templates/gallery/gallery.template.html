@@ -10,15 +10,20 @@
 
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1">
-                    <a href="images/gallery/gallery-1.jpg" data-lightbox="gallery" rel="lightbox[gallery]"><img class="img-responsive" src="images/gallery/gallery-1.jpg" ></a>
+                    <p class="lead">Click on an image to start the gallery. You can use arrow keys or click to move through the gallery.</p>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
-                    <p class="lead">Click on the image to start the gallery. You can use arrow keys or click to move through the gallery.</p>
+
+            <div class="row text-center">
+                {{#each photo in photos}}
+                <div style="display: inline-block">
+                    <a href="images/gallery/{{photo}}" data-lightbox="gallery" rel="lightbox[gallery]"><img class="img-responsive gallery-image" src="images/gallery/{{photo}}" ></a>
                 </div>
+                {{/each}}
             </div>
+
+
 
             {{#each image in gallery}}
                     <a href="images/gallery/{{image}}" data-lightbox="gallery" rel="lightbox[gallery]">

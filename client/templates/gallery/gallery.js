@@ -8,12 +8,13 @@ import 'lightbox2/dist/css/lightbox.min.css';
 var numberOfImages = 34;
 var gallery = [];
 
-for (var i = 2; i <= numberOfImages; i++) {
+for (var i = 1; i <= numberOfImages; i++) {
+    console.log('pushing');
     gallery.push('gallery-' + i + '.jpg');
 }
 
 Template.gallery.helpers({
-    gallery() {
+    photos() {
         return gallery;
     }
 });

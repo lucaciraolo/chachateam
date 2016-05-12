@@ -1,5 +1,8 @@
-img.thumbnail {
-    display: none;
+#gallery .gallery-image {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    object-fit: cover;
 }
 
 div.lb-container {
