@@ -1,8 +1,14 @@
 #charity #header-column {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    /*padding-top: 70px;*/
+    /*padding-bottom: 70px;*/
 }
 
 #charity .row {
     margin-bottom: 50px;
+}
+
+#hospitalImage {
+    min-height: 100%;
+    width: auto;
+
 }
