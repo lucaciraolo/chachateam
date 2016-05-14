@@ -24,6 +24,7 @@ Meteor.methods({
             payment      = handleCharge( charge );
 
         Donations.insert({
+            date: Date(),
             firstName: name.first,
             lastName: name.last,
             amount: charge.amount,

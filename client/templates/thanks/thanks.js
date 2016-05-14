@@ -4,6 +4,6 @@ import './thanks.template.html';
 
 Template.thanks.helpers({
     donors() {
-        return Donations.find({display: true});
+        return Donations.find({display: true}, {sort: {date: 1}});
     }
 });
