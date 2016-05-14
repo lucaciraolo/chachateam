@@ -1,10 +1,10 @@
 #charity #header-column {
     /*padding-top: 70px;*/
-    /*padding-bottom: 70px;*/
+    margin-bottom: 50px;
 }
 
-#charity .row {
-    margin-bottom: 50px;
+#charity .row:first-child {
+    margin-bottom: 75px;
 }
 
 #hospitalImage {
