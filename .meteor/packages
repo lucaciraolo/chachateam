@@ -22,3 +22,4 @@ insecure                # Allow all DB writes from clients (for prototyping)
 mrgalaxy:stripe
 tap:i18n
 tap:i18n-ui
+force-ssl
