@@ -1,27 +1,35 @@
 {
-  "home-title": "ChaCha Team",
-  "home-subtitle": "The SWISS CHANNEL CHALLENGE",
-  "home-description": "We are a team of 8 girls from International Schools in Switzerland. 6 of us will be swimming across the English Channel to raise money and awareness for Obstetric Fistula.",
-  "home-button": "Learn More",
-
   "donations-heading": "Donations",
+
   "donations-line1": "When Theodosia came up with this crazy idea of crossing the English Channel, she set herself two goals:",
+
   "donations-list-item-1": "To raise awareness for Obstetric Fistula by informing at least 1000 people",
+
   "donations-list-item-2": "To raise money to cure at least 100 girls",
+
   "donations-line2": "Donate to help us, ChaCha Team (Channel Challenge Team), raise money to help eradicate Obstetric Fistula.",
+
   "donations-line3": "Overall Progress",
+
   "donations-line4": "Raised",
+
   "donations-line5": "Goal",
+
   "donations-donation-form-title": "Donation Form",
+
   "donations-donation-form-first-name": "First Name",
+
   "donations-donation-form-last-name": "Last Name",
+
   "donations-donation-form-amount": "Amount",
+
   "donations-donation-form-donor-list-permission": "I would like my name to appear on the list of donors. (Does not show amount.)",
+
   "donations-donation-form-donate-button": "Donate",
+
   "donations-donation-form-line1": "Secure payment with Stripe.",
+
   "donations-donation-form-line2": "We are actively looking for sponsors for the crossing, if we don't, a small part of your donation will help us with its cost.",
+
   "donations-donation-form-line3": "Your donation will go to T.E.Y.Y.A \"To Empower Youth with Youth Action\" under the umbrella of <a href=\"http://roseyfoundation.org\">The Rosey Foundation</a>."
-
-
-
 }

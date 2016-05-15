@@ -5,7 +5,7 @@ import 'lightbox2/dist/js/lightbox.min.js';
 import 'lightbox2/dist/css/lightbox.min.css';
 
 
-var numberOfImages = 34;
+var numberOfImages = 49;
 var gallery = [];
 
 for (var i = 1; i <= numberOfImages; i++) {
