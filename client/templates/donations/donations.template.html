@@ -3,13 +3,13 @@
         <div class="row">
             <div class="col-sm-5">
                 <div class="row">
-                    <h1 class="section-header">Donations</h1>
-                    <p>When Theodosia came up with this crazy idea of crossing the English Channel, she set herself two goals:</p>
+                    <h1 class="section-header">{{_ "donations-heading"}}</h1>
+                    <p>{{_ "donations-line1"}}</p>
                     <ol>
-                        <li>To raise awareness for Obstetric Fistula by informing at least 1000 people</li>
-                        <li>To raise money to cure at least 100 girls</li>
+                        <li>{{_ "donations-list-item-1"}}</li>
+                        <li>{{_ "donations-list-item-2"}}</li>
                     </ol>
-                    <p class="lead">Donate to help us, ChaCha Team (Channel Challenge Team), raise money to help eradicate Obstetric Fistula.</p>
+                    <p class="lead">{{_ "donations-line2"}}</p>
                 </div>
             </div>
             <div class="col-sm-7">
@@ -18,16 +18,15 @@
                         <div class="cycle-image">
                             <img id="swimmer" class="img-responsive" src="images/swimmer.png" alt="" style="width: 80px; margin-left: 183.54px;">
                         </div>
-                        <!--<img class="img-responsive" src="images/water-line.png" alt="" style="width: 503px"/>-->
                         <div class="round-progress" style="margin-top: 46px">
                             <div class="progress">
                                 <div id="donationsProgressBar" class="progress-bar progress-bar-striped active six-sec-ease-in-out" role="progressbar" data-transition="0" style="width: 41%;"></div>
                             </div>
                         </div>
                         <div class="progress-info">
-                            <p>Overall Progress</p>
-                            <span class="lead"><i class="fa fa-thumbs-o-up"></i> Raised $ {{donationsProgress}}</span>
-                            <span class="lead"><i class="fa fa-flag-o"></i> Goal $ 70,000</span>
+                            <p>{{_ "donations-line3"}}</p>
+                            <span class="lead"><i class="fa fa-thumbs-o-up"></i> {{_ "donations-line4"}} $ {{donationsProgress}}</span>
+                            <span class="lead"><i class="fa fa-flag-o"></i> {{_ "donations-line5"}} $ 70,000</span>
                         </div>
                     </div>
                 </div>
@@ -36,35 +35,35 @@
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2 text-center">
                 <form id="donationForm">
-                    <h2>Donation Form</h2>
+                    <h2>{{_ "donations-donation-form-title"}}</h2>
                     <div class="form-group form-group-lg">
-                        <input name="firstName" placeholder="First Name" type="text" class="form-control" required>
+                        <input name="firstName" placeholder="{{_ "donations-donation-form-first-name"}}" type="text" class="form-control" required>
                     </div>
                     <div class="form-group form-group-lg">
-                        <input name="lastName" placeholder="Last Name" type="text" class="form-control" required>
+                        <input name="lastName" placeholder="{{_ "donations-donation-form-last-name"}}" type="text" class="form-control" required>
                     </div>
                     <div class="form-group form-group-lg">
                         <div class="input-group">
                             <div class="input-group-addon">$</div>
-                            <input id="donationAmount" name="amount" type="number" class="form-control" placeholder="Amount" required="">
+                            <input id="donationAmount" name="amount" type="number" class="form-control" placeholder="{{_ "donations-donation-form-amount"}}" required="">
                             <div class="input-group-addon">.00</div>
                         </div>
                     </div>
                     <div class="checkbox">
                         <label>
-                            <input name="display" type="checkbox" checked=""> I would like my name to appear on the list of donors. (Does not show amount.)
+                            <input name="display" type="checkbox" checked=""> {{_ "donations-donation-form-donor-list-permission"}}
                         </label>
                     </div>
                     <img class="img-responsive center-block" src="images/donations/donate.jpg">
                     <!--<div class="embed-responsive embed-responsive-16by9">-->
                         <!--<iframe src="https://drive.google.com/file/d/0B6I3GoDdJI7NLTdkR252RjFncW8/preview" frameborder="0" allowfullscreen></iframe>-->
                     <!--</div>-->
-                    <button id="donateButton" type="submit" class="btn btn-primary btn-lg">Donate</button>
-                    <p>Secure payment with Stripe. <a href="https://stripe.com/docs/security">https://stripe.com/docs/security</a> </p>
+                    <button id="donateButton" type="submit" class="btn btn-primary btn-lg">{{_ "donations-donation-form-donate-button"}}</button>
+                    <p>{{_ "donations-donation-form-line1"}} <a href="https://stripe.com/docs/security">https://stripe.com/docs/security</a> </p>
 
                     <ul>
-                        <li>We are actively looking for sponsors for the crossing, if we don't, a small part of your donation will help us with its cost.</li>
-                        <li>Your donation will go to T.E.Y.Y.A "To Empower Youth with Youth Action" under the umbrella of <a href="http://roseyfoundation.org">The Rosey Foundation</a>.</li>
+                        <li>{{_ "donations-donation-form-line2"}}</li>
+                        <li>{{{_ "donations-donation-form-line3"}}}</li>
                     </ul>
                 </form>
             </div>
