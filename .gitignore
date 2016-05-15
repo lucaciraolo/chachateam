@@ -1,3 +1,5 @@
 node_modules/
 .idea/
 settings-development.json
+mup.json
+settings.json
